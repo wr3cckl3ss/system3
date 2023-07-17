@@ -1,4 +1,4 @@
-## system3
+# system3
 
 No More SMT! 
 No worries of AOSP patch!
@@ -7,7 +7,9 @@ No worries of AOSP patch!
 
 *COMING SOON TO A SAMSUNG DEVICE NEAR YOU!*
 
+## *Date: TBD*
+
+
   <div align="center">
-    <img src="system3_S23.jpg" width="20%" />
-    <img src="system3_T738U.jpg" width="30%" />  
+    <img src="system3_S23-July.jpg" width="80%" />  
   </div>
