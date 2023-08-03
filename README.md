@@ -15,12 +15,18 @@ No downgrading!
 3. [SMT Shell by BluFeNiX](https://github.com/BLuFeNiX/SMTShell/)
 4. [system_shell_2](https://github.com/wr3cckl3ss1/system_shell_2/)
 
-
+## Key Devices Affected:
   <div align="center">
-    <img src="system3_S23-July.jpg" width="70%" />  
-  </div>
+    <img src="system3_S23-July.jpg" width="55%" /> 
+    <img src="system3_S22U-June.jpg" width="60%" />
+    <img src="system3_W4-B4.jpg" width="65%" />
 
-### *COMING SOON TO A SAMSUNG DEVICE NEAR YOU!*
+```  
+But not ONLY limited to these devices, about 90 devices are affected !!!
+```
+</div>  
 
-## *Date: TBD*
+## *COMING SOON TO A SAMSUNG DEVICE NEAR YOU!*
+
+# *Date: TBD*
 
