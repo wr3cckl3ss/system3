@@ -28,5 +28,5 @@ But not ONLY limited to these devices, about 90 devices are affected !!!
 
 ## *COMING SOON TO A SAMSUNG DEVICE NEAR YOU!*
 
-# *Date: TBD*
+## *Date: Oct 31st...Tick tock, Tick Tock*
 
