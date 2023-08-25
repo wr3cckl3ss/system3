@@ -93,16 +93,19 @@ pm install -i PrePackageInstaller /data/local/tmp/FTL.apk or the name of ANY sys
 ```
 
 <div align="center">
-<img src="system3_PPI-Install.jpg.jpg" width="45%" />
+<img src="system3_PPI-Install.jpg.jpg" width="75%" />
 </div>
 
-### THE BAD NEWS PT. 1, 2, & 3.
+
+### THE BAD NEWS 
+
+### Pt. 1
 
 While, many NOW have FTL installed, thats only half the battle. To open the "shell activity" of FTL, the system requires 
-for the activity to be called from uid 1000 or anything HIGHER THAN SHELL. I'll let you use your imagination on how that could be launched. I, as an amateur researcher, was able to figure this out and I dont read or write any coding nor I do, have any skills or hold any AOSP secrets that
+for the activity to be called from uid 1000 or anything HIGHER THAN SHELL. I'll let you use your imagination on how that could be launched. I, as an amateur researcher, was able to figure this out and I dont read or write any coding nor do I, have any skills or hold any AOSP secrets that
 help me LAUNCH the needed activity. There's a couple ways to do this. Do your research and you too, will be SUCCESSFUL. 
 
-AND FOR THOSE STILL CLUELESS, RE-READ THIS WHOLE PARAGRAPH AND TAKE NOTE OF KEY WORDS, I HAVE USED AND/OR CAPITALIZED. THATS YOUR ONLY HINT!
+*FOR THOSE STILL CLUELESS, RE-READ THIS WHOLE PARAGRAPH AND TAKE NOTE OF KEY WORDS, I HAVE USED AND/OR CAPITALIZED. THATS YOUR ONLY HINT!*
 
 SOME MAY EVEN DISCOVER A HIDDEN SECRET, IF YOU WERE TO TAP ON THE ICON FOR FTL (MAIN). 
 
@@ -111,10 +114,13 @@ This secret is not for every DEVICE but MANY older devices and some newer ones h
 When your SUCCESSFUL in launching, you will be met with the following screen,
 
 <div align="center">
-<img src="system3_FTL.jpg" width="45%" />
+<img src="system3_FTL.jpg" width="55%" />
 
-<bold>Welcome to system3! Third time's a charm, courtesy of Samsung and the ASKSManager.</bold>
+Welcome to system3! Third time's a charm, courtesy of Samsung and the ASKSManager.
+
 </div>
+
+### Pt. 2 & 3
 
 As of JULY 2023, any firmware that carries the affected ASKSTS.xml is very VULNERABLE. As long as it carries those 3 packages, YOU COULD still use 
 PrePackageInstaller as an argument and bypass the error. Now I need to be clear here, as I said in my previous statement. "YOU COULD" means that there are certain exceptions AND there are certain devices where this may not be applicable. Its up to you to figure out what works and what doesn't. 
@@ -122,7 +128,7 @@ PrePackageInstaller as an argument and bypass the error. Now I need to be clear 
 DO NOT, I REPEAT, DO USE THE ISSUES TAB TO ASK ME ABOUT, WHY SOMETHING DOESN'T WORK OR WHY THE INSTALL COMMAND IS NOT WORKING. I WILL CLOSE OUT ANY ISSUES WITHOUT REASON OR CAUSE. USE YOUR HEAD AND TWO EYES TO READ A LITTLE BIT, IT WONT KILL YOU, I PROMISE.
 
 
-This SUPER BYPASS, the install command, is NOW PATCHED on any firmware carrying a AUG 1 2023 security patch. 
+The SUPER BYPASS, the install command, is NOW PATCHED on any firmware carrying a AUG 1 2023 security patch. 
 So this exploit is somewhat considered dead.
 
 Well.....so they thought!
@@ -130,7 +136,7 @@ Well.....so they thought!
 ### US S23 ULTRA on the One UI 6 Beta and a Aug 1, 2023 security patch.
 
 <div align="center">
-<img src="system3_S23U-Beta.jpg" width="45%" />
+<img src="system3_S23U-Beta.jpg" width="65%" />
 
 ```
 Damn Samsung! Why cant you get things right, are we that lazy to allow PATCH REGRESSION or
