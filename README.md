@@ -93,7 +93,7 @@ pm install -i PrePackageInstaller /data/local/tmp/FTL.apk or the name of ANY sys
 ```
 
 <div align="center">
-<img src="system3_PPI-Install.jpg" width="45%" />
+<img src="system3_PPI-Install.jpg.jpg" width="45%" />
 </div>
 
 ### THE BAD NEWS PT. 1, 2, & 3.
