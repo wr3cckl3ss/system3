@@ -33,7 +33,7 @@ That patch stopped anymore downgrading of the Samsung-text-to-talk application t
 adb install -d -i com.sec.android.preloadinstaller /path/to/SMT.apk
 pm install -d -i com.sec.android.preloadinstaller /path/to/SMT.apk
 ```
-The key to NOW, bypassing the bandaid, Samsung implemented to stop anymore SMT downgrades. When executed precisely, it would guarantee, that SMT would be fully downgraded to once again allow access to system uid capabilities whether by using any of the known available apps that worked side by side with SMT,
+The key to bypassing the bandaid, Samsung implemented to stop anymore SMT downgrades. When executed precisely, it would guarantee, that SMT would be fully downgraded to once again allow access to system uid capabilities whether by using any of the known available apps that worked side by side with SMT,
 
 Apps available at the time
 1. [Shizuku 1000 aka ShizukuHack by Z. Wander](https://github.com/zacharee/ShizukuHack/)
@@ -50,6 +50,7 @@ Many will wonder, what does any of this have to do with system3, well its plain 
 -i com.sec.android.preloadinstaller
 ```
 Belongs to a little file on about 90 to 95 percent of Samsung devices called "ASKSTS.xml" easily located by executing, on your device command line,
+
 ```
 ls -lah /etc
 ```
@@ -57,9 +58,9 @@ Opening up the XML, you will be greeted with the following words, "TRUSTEDSTORE"
 
 <div align="center">
 <img src="system3_ASKSTS.jpg" width="65%" />
-</div>
-    
+
 *3 TRUSTED PACKAGES*
+</div>
 
 Which one of them, was used for the first bypass and 2 other unknown packages:
 
@@ -69,6 +70,7 @@ PrePackageInstaller
 ```
 
 After AOSP, made the hard [framework](https://android.googlesource.com/platform/frameworks/base/+/33940a9749666eec991904094ccf56ae4ca4ae10) changes it KILLED SMT completely. Now no more downgrades were possible.
+
 
 ## PrePackageInstaller & FTL (FactoryTestLauncher):
 
@@ -85,7 +87,7 @@ Typically when installing, applications like this or any past system application
 The following command, BYPASSES this completely, enabling a hidden and CRITICAL ability to NOW install pretty much any old system application. 
 The following will NOT downgrade any apps but who cares when you can work with new abilities.
 
-### *ENTER THE DRAGON*
+## *ENTER THE DRAGON*
 
 ```
 adb install -i PrePackageInstaller /data/local/tmp/FTL.apk or the name of ANY system package.
@@ -107,17 +109,10 @@ help me LAUNCH the needed activity. There's a couple ways to do this. Do your re
 
 *FOR THOSE STILL CLUELESS, RE-READ THIS WHOLE PARAGRAPH AND TAKE NOTE OF KEY WORDS, I HAVE USED AND/OR CAPITALIZED. THATS YOUR ONLY HINT!*
 
-SOME MAY EVEN DISCOVER A HIDDEN SECRET, IF YOU WERE TO TAP ON THE ICON FOR FTL (MAIN). 
-
-This secret is not for every DEVICE but MANY older devices and some newer ones have this capability. Being that this IS the DEFAULT LAUNCHER on combo firmware, do a quick search and see what comes up when searching. Im thinking of the word, YELLOW. 
-
 When your SUCCESSFUL in launching, you will be met with the following screen,
 
 <div align="center">
 <img src="system3_FTL.jpg" width="55%" />
-
-Welcome to system3! Third time's a charm, courtesy of Samsung and the ASKSManager.
-
 </div>
 
 ### Pt. 2 & 3
@@ -128,22 +123,32 @@ PrePackageInstaller as an argument and bypass the error. Now I need to be clear 
 DO NOT, I REPEAT, DO USE THE ISSUES TAB TO ASK ME ABOUT, WHY SOMETHING DOESN'T WORK OR WHY THE INSTALL COMMAND IS NOT WORKING. I WILL CLOSE OUT ANY ISSUES WITHOUT REASON OR CAUSE. USE YOUR HEAD AND TWO EYES TO READ A LITTLE BIT, IT WONT KILL YOU, I PROMISE.
 
 
-The SUPER BYPASS, the install command, is NOW PATCHED on any firmware carrying a AUG 1 2023 security patch. 
-So this exploit is somewhat considered dead.
+The install command, is NOW PATCHED on any devices with a AUG 1 2023 security patch. 
+So this exploit is considered dead....
 
 Well.....so they thought!
 
 ### US S23 ULTRA on the One UI 6 Beta and a Aug 1, 2023 security patch.
 
 <div align="center">
-<img src="system3_S23U-Beta.jpg" width="65%" />
+<img src="system3_S23U-Beta.jpg" width="75%" />
+</div>
+
+###  The Update, you didn't know was COMING...(Sept 4th)
+
+<div align="center">
+Combo firmware.... for One UI 6 Beta 2?.... Sept 1, security patch?.... system3 still alive???
+
+....."hold my beer....watch this..."     #time2getwr3cckl3ss
+
+
+<img src="FTL_One6Beta2_1.jpg" width="75%" />
+<img src="FTL_One6Beta2_2.jpg" width="55%" />
+<img src="FTL_One6Beta2_3.jpg" width="55%" />
+<img src="FTL_One6Beta2_4.jpg" width="55%" />
+<img src="FTL_One6Beta2_5.jpg" width="55%" />
 
 ```
-Damn Samsung! Why cant you get things right, are we that lazy to allow PATCH REGRESSION or
-are the engineers down in Texas, Seoul or Ukraine getting lazy?
-
-Standby until OCT 31st for PART 2 of this story. 
-But until then, ENJOY. 
 ALL previous commands from the past system shells still work.
 Kindly use Google or your preferred search provider to find them.
 ```
@@ -151,15 +156,22 @@ Kindly use Google or your preferred search provider to find them.
 
 ### Credits
 ```
-Oakieville(https://www.github.com/oakieville/)
+Oakieville (https://www.github.com/oakieville/)
 For his countless knowledge, patience and testing, thanks bro!
 
-Zachary Wander(https://www.github.com/zacharee/)
-For the modified Shizuku, known as Shizuku 1000 and countless knowledge of APKs. This guy is a MASTER in his own class.
+Zachary Wander (https://www.github.com/zacharee/)
+For the modified Shizuku, known as Shizuku 1000 and countless knowledge of APKs. 
+This guy is a MASTER in his own class.
  
+BLuFeNiX (https://github.com/BLuFeNiX/)
+For his patience to read my blocks and blocks of messages....your A-1 bro.
+
+The Elite.....
+
 Samsung
-For once again proving that BANDAIDS ARE NOT A FIX, and can easily be ripped off and shredded to pieces.
+For once again proving that BANDAIDS ARE NOT A FIX, and can easily be ripped off 
+and shredded to pieces.
 
-Project includes an unmodified system APK, com.samsung.android.FactoryTestLauncher, v. 2.2.14 221400000.
+Project includes an unmodified system APK, 
+com.samsung.android.FactoryTestLauncher, v. 2.2.14 221400000.
 ```
-
