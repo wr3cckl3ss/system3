@@ -134,8 +134,7 @@ Well.....so they thought!
 <img src="system3_S23U-Beta.jpg" width="75%" />
 </div>
 
-###  The Update, you didn't know was COMING...(Sept 4th)
-
+##  The Update, you didn't know was COMING...(Sept 4th)... More updates soon!
 <div align="center">
 Combo firmware.... for One UI 6 Beta 2?.... Sept 1, security patch?.... system3 still alive???
 
