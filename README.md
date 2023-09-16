@@ -121,7 +121,7 @@ When your SUCCESSFUL in launching, you will be met with the following screen,
 THE INSTALL COMMAND IS NOW PATCHED ON ANY FIRMWARE, WITH A SECURITY PATCH OF AUG 1, 2023 OR NEWER. IT IS ALSO PATCHED, EVEN IF ASKSTS.XML IS SHOWING THE 3 PACKAGES.
 
 <div align="center">
-<img src="system3/system3_FAIL.jpg" width="55%" />
+<img src="system3/system3_FAIL.jpg" width="75%" />
 </div>
 
 
@@ -133,6 +133,9 @@ THE INSTALL COMMAND IS NOW PATCHED ON ANY FIRMWARE, WITH A SECURITY PATCH OF AUG
 <img src="system3/FTL_One6Beta2_3.jpg" width="35%" />
 <img src="system3/FTL_One6Beta2_4.jpg" width="35%" />
 <img src="system3/FTL_One6Beta2_5.jpg" width="35%" />
+</div>
+
+<div align="center">
 <img src="system3/FTL_One6Beta2_1.jpg" width="55%" />
 <img src="system3/system3_One6Beta3.jpg" width="55%" />
 
