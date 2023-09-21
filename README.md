@@ -125,6 +125,29 @@ THE INSTALL COMMAND IS NOW PATCHED ON ANY FIRMWARE, WITH A SECURITY PATCH OF AUG
 </div>
 
 
+## Operation Samsung's Lullaby: WAKE THE DRAGON! Act 1
+
+Special Thanks to SJ Park (https://github.com/seojun0924/)
+for the following ....
+ 
+The true and only backdoor into having "Combo Firmware" apps without the hassle of any tokens. No fake claims of a MAGISK MODULE. All apps installed strictly due to the PrePackageInstaller command. These apps are pulled from Flip3 combo firmware.
+These are the closest applications, you will find before Samsung made the change to start signing their combo firmware with AOSP keys. 
+These applications are strictly for devices, like that of the Flip3, S23 Ultra, S22 Ultra, Fold3, etc. THESE ARE NOT FOR THE LOW TO MID BUDGET DEVICES OR ANY NON GALAXY DEVICES. IF THEY FAIL TO INSTALL, THEN THIS IS NOT FOR YOU. I WILL UPDATE SOON, WITH APPS FOR YOU.
+
+
+<div align="center">
+<img src="system3/combo1.jpg" width="35%" />
+<img src="system3/combo2.jpg" width="35%" />
+<img src="system3/combo3.jpg" width="35%" />
+
+OperationSamsungsLullaby-V1.zip
+</div>
+
+
+** What you do with the following apps, is your business. Not MINE. IF YOU BREAK SOMETHING, THATS ON YOU AND YOU'RE CARELESSNESS**
+
+
+
 ## New Beginning?...One UI 6 Beta 2 & 3, Sept. patch?
 
 <div align="center">
@@ -154,6 +177,7 @@ Kindly use Google or your preferred search provider to find them.
 Oakieville (https://www.github.com/oakieville/)
 Zachary Wander (https://www.github.com/zacharee/) 
 BLuFeNiX (https://github.com/BLuFeNiX/)
+SJ Park (https://github.com/seojun0924/)
 The Elite
 South Harmon Institute of Technology
 Samsung Electronics
@@ -163,6 +187,9 @@ Donald J Trump...jk jk lmao
 ```
 Project includes three unmodified system APKs from
 factory combination firmware:
+
+OperationSamsungsLullaby-V1.zip
+Collection of unmodified combo apps pulled from Flip3 combo firmware.
 
 com.samsung.android.FactoryTestLauncher_v.2.3.31.apk
 Used for Galaxy Devices (S21, S22, S23, Flip5, Fold4, Tab)
