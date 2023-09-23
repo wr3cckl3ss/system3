@@ -147,7 +147,19 @@ OperationSamsungsLullaby-V1, V2, V3 & V4
 
 ** What you do with the following apps, is your business. Not MINE. IF YOU BREAK SOMETHING, THATS ON YOU AND YOU'RE CARELESSNESS**
 
+## Secret "FUNC" 
+If you have ever taken a deep look of FTL, you might be wondering why FUNC tab is empty.
+This is because it determines what to show based on xml file.
+Seeing FTL code carefully, you'll find out that FTL tries to read xml from 3 locations:
 
+/sdcard/factory_ftl_default.xml
+/sdcard/factory_ftl_wifi.xml
+/system/factory/factory_ftl.xml
+
+We do not have `w` access to /system while we do for /sdcard.
+Simply put that xml to /sdcard and you can check now FUNC has something.
+
+You'll be able to find out remaining easily. Now you can open shell if you are SUPER_MODE, I already modified the xml.
 
 ## New Beginning?...One UI 6 Beta 2 & 3, Sept. patch?
 

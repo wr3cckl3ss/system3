@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FactoryTestLauncherFeature>
+    <Feature>
+    <!-- *************************************************************************************************
+        This FTL function File : default (Communication Mode)
+        Example
+        <feature id="function name"                  value="true or false" />
+        ************************************************************************************************** -->
+        <feature id="EasyFactorytestMonitoring"      value="true" />
+        <feature id="LiteMyFiles"                    value="false" />
+        <feature id="GadgetMode"                     value="true" />
+  </Feature>
+
+  <Function>
+    <Version>
+        <item name="RESET_CABLE_DETECT_COUNT"     title="Reset Connector Detect Count" description="Reset Connector Detect Count" />
+        <item action="com.sec.factory"     title="Wireless Charging TX"  description="Control wireless charging tx function" activity="com.sec.factory.app.ui.WirelessChargingTx" />
+        <item keystring="*#33725327#"      title="EFS Clear"       description="Clear EFS partition" />
+        <item keystring="*#27663368378#"   title="NV Rebuild"       description="NV rebuild" />
+        <item keystring="*#6648#"          title="NV Viewer"       description="NV Viewer" />
+        <item keystring="*#7547#"          title="Test History"    description="Test history NV list" />
+        <item action="com.sec.factory"     title="SVC Calibration Item Viewer"  description="SVC Calibration Item Viewer" activity="com.sec.factory.app.ui.SvcCalItemViewer" />
+        <item keystring="*#0589#"          title="Light Sensor Ver"    description="Light sensor test, Display light level(1,2,3) by Lux value" />
+        <item action="com.sec.android.app.factorykeystring"     title="3D Digital Hall IC"  description="3D Digital Hall IC Test" activity="com.sec.android.app.status.ThirdDDigitalHallIcTest" />
+        <item keystring="*#5238973#"       title="LcdTypeInfo"    description="Display LCD type" />
+        <item keystring="*#2663#"          title="F/W Ver"    description="Display TSP, TouchKey, SensorHub, Wifi, Bluetooth FW version, Update menu available" />
+        <item keystring="*#3264#"          title="Ram Ver"    description="Display ram version" />
+        <item keystring="*#12580*369#"     title="Detail Ver"    description="Display AP,CP,RF Cal, HW Rev" />
+        <item keystring="*#1234#"          title="Simple Ver"    description="Display AP,CP version" />
+        <item keystring="*#99732#"         title="Build Info"    description="Display Build Time, Changelist" />
+        <item keystring="*#9999#"          title="Simple Ver TMO"    description="Display AP,CP,FTA SW VERSION for TMO Version only" />
+        <item keystring="*#0782#"          title="RTCTime"    description="Display date, time, PDA RTC Get" />
+        <item keystring="*#86824#"         title="TSK F/W Ver"    description="Display touchkey FW information, FW update function available, Touchkey sensitivity test, High sensitivity mode" />
+        <item action="com.sec.factory"     title="Back Cover Type"  description="Back Cover Type" activity="com.sec.factory.app.ui.UIBackCoverType" />
+        <item keystring="*#266536966#"     title="Batt Cool Down"   description="charge without MST ANT" />
+        <item name="NAD_20_TIMES_TEST"     title="NAD 20 times"     description="NAD 20 times test" />
+        <item name="NAD5_20_TIMES_TEST"    title="NAD 5.0 20 times" description="NAD 5.0 20 times test" />
+    </Version>
+
+    <Tester>
+        <item action="com.sec.factory.camera"      title="Camera Test"  description="Front / Rear camera test" activity="com.sec.android.app.camera.CameraTestActivity" extra="testtype,FUNC/arg1,secret" />
+        <item action="com.sec.factory"             title="Charging Chart"  description="Show the current and voltage of charging in real time" activity="com.sec.factory.app.ui.UICharge" />
+    </Tester>
+
+    <Sensor>
+        <item keystring="*#4378873#"       title="Gesture Sensor"    description="Gesture Sonsor test, Display A,B,C,D Value, check Direction." />
+        <item keystring="*#0588#"          title="Proxi Test"    description="Proximity sensor test" />
+        <item keystring="*#1004#"          title="Sound Source Test"    description="Test stereo, left ,right speaker by six music" />
+        <item keystring="*#7769#"          title="Proximity Offset"    description="Display proximity sensor value, Set Low, High Threshold" />
+        <item keystring="*#435517#"        title="Grip Sensor"    description="Select Grip Sensor, Calibration available" />
+        <item keystring="*#1106#"          title="Grip On/Off"    description="Grip Sensor On,Off" />
+    </Sensor>
+
+    <TSP-TSK>
+        <item keystring="*#7736#"          title="S-Pen Detection Test"    description="S-Pen detection test. Display count" />
+        <item keystring="*#77368378#"      title="S-Pen Simple Test"    description="S-Pen test on grid panel, Show values(X,Y,Pressure)" />
+        <item keystring="*#77361379#"      title="S-Pen 3 Menu Test"    description="S-Pen test, Accuracy/Pressure, Linearity, Hover Accuracy menu available" />
+        <item keystring="*#3736#"          title="S-Pen 2 Menu Test"    description="S-Pen test, AccuracyPont,Pressure, Line linearity menu available" />
+        <item keystring="*#8778378#"       title="TSP Test"    description="output TSP, Hover data to SD Card, Hover Accuracy Test" />
+        <item keystring="*#877#"           title="Result of TSP"    description="Display Result of TSP" />
+        <item keystring="*#46837#"         title="Glove Touch Test"    description="TSP High sensitivity mod test(TSP test while wearing glove)" />
+        <item keystring="*#8778378#"       title="TSP Test mode"    description="output TSP, Hover data to SD Card, Hover Accuracy Test" />
+        <item keystring="*#80#"            title="Touch Noise"    description="Touch noise test" />
+        <item keystring="*#251#"           title="TSK ON"    description="Light on software key" />
+        <item keystring="*#250#"           title="TSK OFF"    description="Light off software key" />
+    </TSP-TSK>
+
+    <ETC>
+        <item keystring="*#0228#"          title="Battery Status"    description="Display battery status(Current,Avaerage Value of Voltage, Temperature, Level, Level Block), Quickstart function available(Fuelgauge reset)" />
+        <item keystring="*#350#"           title="Reboot"    description="Perform Reboot" />
+        <item keystring="*#4327#"          title="HDCP Check"    description="HDCP check" />
+        <item keystring="*#22235#"         title="Acc Cal"    description="Display accelerometer value(X,Y,Z), Calibration function available" />
+        <item keystring="*#0842#"          title="Vibration, SVD_LED"    description="Vibration test, Vibration value adjustable, SVC_LEC test, led rgb value adjustable" />
+        <item keystring="*#0673#"          title="Melody"    description="Speaker, Receiver, Headset, Receiver_Headset, OFF menu available, Beeping" />
+        <item keystring="*#2664#"          title="Pointer Locaion"    description="Check touch point location" />
+        <item keystring="*#9998*3288#"     title="Counter Print"    description="Display TACounter, EPenCounter, EarjackCounter, QwertyCounter, FlashPopupCounter, TMBCounter value by Toast" />
+        <item keystring="*#767*2878#"      title="Qwerty Slide Reset"    description="reset Qwerty Slide counter value" />
+        <item keystring="*#0283#"          title="Loopback Test"    description="Check RCV, SPK, Earphone Loopback" />
+        <item keystring="*#7328735824#"    title="Lot ID"    description="Display Lot ID" />
+        <item keystring="*#22228378#"      title="Cabc/Outside Test"    description="Cabc On,Off Available, Outside Mode On,Off Available" />
+        <item keystring="*#1105#"          title="Fail History"    description="Display Fail Histroy" />
+        <item keystring="*#726387#"        title="PCM Dump"    description="PCM Dump, Record Test" />
+        <item keystring="*#26732875#"      title="Core CTRL"    description="Core(CPU) Control" />
+        <item keystring="*#272447#"        title="AP Chip Test"    description="Display AP Chip Test, PVS, IDDQ value" />
+        <item keystring="*#6364366633#"    title="Mdnie On/Off"    description="Mdnie On,Off" />
+        <item keystring="*#0775#"          title="RCV/SPK Test"    description="RCV,SPK test by 200,500,1000hz" />
+        <item keystring="*#7594#"          title="Shutdown Setting"    description="Shutdown, 1 Key Hard Reset setting available" />
+        <item keystring="*#272886#"        title="Auto Answer Device"    description="Auto Answer Without Device On,Off setting available" />
+        <item keystring="*#2288379#"       title="Fuel Gauge Register"    description="Setting Fuel Gauge" />
+        <item name="RESET_ALL_NV_TO_N"     title="Reset All NV to N" description="To release factory binary" />
+        <item action="com.samsung.android.FactoryTestLauncher" title="Shell" description="Open system-uid test shell. Use it as-is, we cannot guarantee about what you do in here." activity="com.samsung.android.FactoryTestLauncher.addons.Shell.ShellActivity"  />
+    </ETC>
+    </Function>
+    <SecretMode>
+        <item secretcode="12453" name="SUPER_MODE"     enable="true"/>
+        <item secretcode="12345" name="TESTER_MODE"    enable="true"/>
+        <item secretcode="13524" name="USER_MODE"      enable="true"/>
+        <item secretcode="54321" name="MYFILES_MODE"   enable="true"/>
+        <item secretcode="11111" name="TEST"           enable="true"/>
+    </SecretMode>
+    <SRS>
+        <item id="DEFAULT_BIT_RATE" value="0" /> <!-- 0 : 512 kbps, 1 : 1 mbps, 2 : 3 mbps -->
+        <item id="MAXIMUM_RCD_FILES" value="6" /> <!-- 6 EA -->
+        <item id="RCD_FILE_LEN" value="600000" /> <!-- 10min -->
+    </SRS>
+</FactoryTestLauncherFeature>
