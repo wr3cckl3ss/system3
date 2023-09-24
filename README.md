@@ -132,15 +132,24 @@ for the following ....
  
 The true and only backdoor into having "Combo Firmware" apps without the hassle of any tokens. No fake claims of a MAGISK MODULE. All apps installed strictly due to the PrePackageInstaller command. These apps are pulled from Flip3 combo firmware.
 These are the closest applications, you will find before Samsung made the change to start signing their combo firmware with AOSP keys. 
-These applications are strictly for devices, like that of the Flip3, S23 Ultra, S22 Ultra, Fold3, etc. THESE ARE NOT FOR THE LOW TO MID BUDGET DEVICES OR ANY NON GALAXY DEVICES. IF THEY FAIL TO INSTALL, THEN THIS IS NOT FOR YOU. I WILL UPDATE SOON, WITH APPS FOR YOU.
+These applications are strictly for devices, like that of the Flip3, S23 Ultra, S22 Ultra, Fold3, etc.
 
 
 <div align="center">
 <img src="system3/combo1.jpg" width="35%" />
-<img src="system3/combo2.jpg" width="35%" />
+<img src="system3/combo2.jpg" width="30%" />
 <img src="system3/combo3.jpg" width="35%" />
 
 OperationSamsungsLullaby-V1, V2, V3 & V4
+
+
+<img src="system3/nonGalaxy1.jpg" width="35%" />
+<img src="system3/nonGalaxy2.jpg" width="35%" />
+<img src="system3/nonGalaxy3.jpg" width="35%" />
+
+
+*NOW AVAILABLE as of 9/24*
+NonGalaxy_Combo v1, v2, v3 & v4 
 
 </div>
 
