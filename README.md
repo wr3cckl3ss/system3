@@ -217,6 +217,12 @@ OperationSamsungsLullaby-v3.zip
 OperationSamsungsLullaby-v4.zip
 Collection of unmodified combo apps pulled from Flip3 combo firmware.
 
+NonGalaxy_Combo-v1.zip
+NonGalaxy_Combo-v2.zip
+NonGalaxy_Combo-v3.zip
+NonGalaxy_Combo-v4.zip
+Collection of unmodified combo apps pulled from A71 combo firmware.
+
 com.samsung.android.FactoryTestLauncher_v.2.3.31.apk
 Used for Galaxy Devices (S21, S22, S23, Flip5, Fold4, Tab)
 
