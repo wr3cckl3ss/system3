@@ -148,7 +148,8 @@ OperationSamsungsLullaby-V1, V2, V3 & V4
 <img src="system3/nonGalaxy3.jpg" width="35%" />
 
 
-*NOW AVAILABLE as of 9/24*
+**NOW AVAILABLE as of 9/24**
+
 NonGalaxy_Combo v1, v2, v3 & v4 
 
 </div>
