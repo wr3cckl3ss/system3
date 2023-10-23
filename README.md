@@ -66,9 +66,6 @@ Typically when installing, applications like this or any past system application
 ```
 
 TO BYPASS THIS
-```
-[-3001: INSTALL_FAILED_REJECTED_BY_BUILDTYPE]
-```
 USE THE FOLLOWING COMMAND
 ```
 adb install -i PrePackageInstaller /data/local/tmp/FTL.apk or the name of ANY system package.
@@ -104,8 +101,7 @@ If you don't know what signature your device holds, STOP RIGHT HERE and LEAVE. T
 *STAY OUT OF THE ISSUES TAB, IF YOU ARE HAVING PROBLEMS OR IF SOMETHING IS NOT WORKING. TAKE IT UP WITH SAMSUNG, NOT ME!* Thanks -wr3cckl3ss
 
 
-## Conclusion
-
+## Conclusion #1
 ### Pt. 1
 While, many NOW have FTL installed, thats only half the battle. To open the "ShellActivity" of FTL, the activity to be called from uid 1000 or something HIGHER THAN SHELL. I'll let you use your imagination on how that could be launched. There's a couple ways to do this. Do your research and you will be successful.
 
@@ -127,7 +123,7 @@ THE INSTALL COMMAND IS NOW PATCHED ON ANY FIRMWARE, WITH A SECURITY PATCH OF AUG
 
 ## Operation Samsung's Lullaby: WAKE THE DRAGON! Act 1
 
-Special Thanks to SJ Park (https://github.com/seojun0924/)
+Special Thanks to [SJ Park](https://github.com/seojun0924/)
 for the following ....
  
 The true and only backdoor into having "Combo Firmware" apps without the hassle of any tokens. No fake claims of a MAGISK MODULE. All apps installed strictly due to the PrePackageInstaller command. These apps are pulled from Flip3 combo firmware.
@@ -171,21 +167,27 @@ Simply put that xml to /sdcard and you can check now FUNC has something.
 
 You'll be able to find out remaining easily. Now you can open shell if you are SUPER_MODE, I already modified the xml.
 
-## New Beginning?...One UI 6 Beta 2 & 3, Sept. patch?
+## Operation Samsung's Lullaby: WAKE THE DRAGON! Act 2, 3 & 4.
+
+### Act 2: Snakes on a Plane?
+I'll just leave this here since its PUBLIC KNOWLEDGE and for those wondering why "PrePackageInstaller" no longer works. 
+What is written in stone, doesnt fade away. 
 
 <div align="center">
-<img src="system3/FTL_One6Beta2_2.jpg" width="35%" />
-<img src="system3/FTL_One6Beta3.jpg" width="35%" />  
-<img src="system3/FTL_One6Beta2_3.jpg" width="35%" />
-<img src="system3/FTL_One6Beta2_4.jpg" width="35%" />
-<img src="system3/FTL_One6Beta2_5.jpg" width="35%" />
+<img src="system3/snake1.jpg" width="35%" />
+<img src="system3/snake2.jpg" width="35%" />
 </div>
 
-<div align="center">
-<img src="system3/FTL_One6Beta2_1.jpg" width="55%" />
-<img src="system3/system3_One6Beta3.jpg" width="55%" />
 
-## STILL WORKING...STAY TUNED !!!
+### Act 3: Watch Series
+
+*UNDER CONSTRUCTION*
+
+
+### Act 4: The Finale?
+
+*UNDER CONSTRUCTION*
+
 
   
 ```
