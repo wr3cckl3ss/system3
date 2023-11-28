@@ -185,15 +185,15 @@ What is written in stone, doesnt fade away.
 
 
 ### Act 4: The Finale?...No. Its just the beginning. 
-Don't believe me....look below. 
 
 <div align="center">
+
+Don't believe me....look below. 
 <img src="ss5.jpg" width="55%" />
-</div>
 
 
 *UNDER CONSTRUCTION*
-
+</div>
 
   
 ```
