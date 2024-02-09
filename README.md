@@ -121,39 +121,12 @@ THE INSTALL COMMAND IS NOW PATCHED ON ANY FIRMWARE, WITH A SECURITY PATCH OF AUG
 </div>
 
 
-## Operation Samsung's Lullaby: WAKE THE DRAGON! Act 1
+### Secret "FUNC" 
 
 Special Thanks to [SJ Park](https://github.com/seojun0924/)
 for the following ....
- 
-The true and only backdoor into having "Combo Firmware" apps without the hassle of any tokens. No fake claims of a MAGISK MODULE. All apps installed strictly due to the PrePackageInstaller command. These apps are pulled from Flip3 combo firmware.
-These are the closest applications, you will find before Samsung made the change to start signing their combo firmware with AOSP keys. 
-These applications are strictly for devices, like that of the Flip3, S23 Ultra, S22 Ultra, Fold3, etc.
 
 
-<div align="center">
-<img src="system3/combo1.jpg" width="35%" />
-<img src="system3/combo2.jpg" width="30%" />
-<img src="system3/combo3.jpg" width="35%" />
-
-OperationSamsungsLullaby-V1, V2, V3 & V4
-
-
-<img src="system3/nonGalaxy1.jpg" width="35%" />
-<img src="system3/nonGalaxy2.jpg" width="35%" />
-<img src="system3/nonGalaxy3.jpg" width="35%" />
-
-
-**NOW AVAILABLE as of 9/24**
-
-NonGalaxy_Combo v1, v2, v3 & v4 
-
-</div>
-
-
-** What you do with the following apps, is your business. Not MINE. IF YOU BREAK SOMETHING, THATS ON YOU AND YOU'RE CARELESSNESS**
-
-## Secret "FUNC" 
 If you have ever taken a deep look of FTL, you might be wondering why FUNC tab is empty.
 This is because it determines what to show based on xml file.
 Seeing FTL code carefully, you'll find out that FTL tries to read xml from 3 locations:
@@ -167,9 +140,9 @@ Simply put that xml to /sdcard and you can check now FUNC has something.
 
 You'll be able to find out remaining easily. Now you can open shell if you are SUPER_MODE, I already modified the xml.
 
-## Operation Samsung's Lullaby: WAKE THE DRAGON! Act 2, 3 & 4.
 
-### Act 2: Snakes on a Plane?
+# Operation Samsung's Lullaby: WAKE THE DRAGON! Act 2, 3 & 4.
+## Act 2: Snakes on a Plane?
 I'll just leave this here since its PUBLIC KNOWLEDGE and for those wondering why "PrePackageInstaller" no longer works. 
 What is written in stone, doesnt fade away. 
 
@@ -179,23 +152,45 @@ What is written in stone, doesnt fade away.
 </div>
 
 
-### Act 3: Watch Series...ON HOLD
+## Act 3: Sorry 4 The Wait
+As this project has grown and re attention. Its come to my attention of the abuses, this may lead to or what a system shell can get you or what you're able to bypass.
+Let me be the first to say, that l,
 
-*UNDER CONSTRUCTION*
+*DO NOT SUPPORT, OR CONDONE, IN ANY ACTIVITY OR ACTIVITIES THAT INVOLVE THE BYPASS OF ANY SECURITY MECHANISMS, LIKE THOSE OF "KG", "KNOXGUARD", "MDM",
+"PAYJOY", "MKOPA".*
 
+And to those, that did take advantage of this. Nothing goes unpunished without consequences. And as of today, many of you know what that consequence is. (RELOCK!?) HAHA!
+It's people like those in that community that ultimately ruin and hinder FUTURE exploits or privilege escalation methods from being released. 
+And that goes to show, why their hasnt been much movement here on the repo. But there will be some today and more coming soon.
 
-### Act 4: The Finale?...No. Its just the beginning. 
+## FTL Update & #system3_powerpack.zips (2.9.24)
+As many are aware, the project no longer has the original 'OperationSamsungsLullaby' zips or any of the Non-Galaxy zips. I do not plan on reintroducing those zips back again. If there was something you may 
+have wanted or needed, then look around, they cant he too hard to find. Use your brainpower to find your answers. No one is going to do it for you.
 
 <div align="center">
+I do however, have, something to introduce today. And those are what I call the "#system3 Power Pack".
 
-Don't believe me....look below. 
+<img src="system3/powerpack1.jpg" width="35%" />
+<img src="system3/powerpack2.jpg" width="35%" />
+<img src="system3/powerpack3.jpg" width="35%" />
 
-<img src="ss5.jpg" width="55%" />
+*THESE APPS ARE FOR THOSE DEVICES LIKE THE S23 ULTRA, S22 ULTRA, FOLD 4, FOLD5...etc*
 
+*THERE WILL NO LONGER BE ANY UPDATES FOR NON-GALAXY DEVICES*
+
+The power pack will NOT WORK on NEW SECURITY nor will it WORK on Non-Galaxy devices that carry a different signature. However, there are soms tricks, 
+that can LEAD YOU all the way up to the One UI 6 Jan. Security patch. At this time i will not disclose what those tricks are and will share including a summary of everything here at a more later date. As I previously stated many times. Make SURE all the apps from the zip folders are installed. REMOVE anything you don't want. but I ultimately did my best to 
+inclue any apps in the zips, where i feel, like a possible privilege escalation could be found or where i believe the door was left wide open. It's solely up to you to figure out, HOW?
+
+The combo apps SHOULD and WILL install on vulnerable firmware (July 2023 or older) using the PrePackageInstaller command, I DISCOVERED! Dont believe the hypes, liars, thieves, low-life, scammers who claim something is theres, when NOT a single bit of R&D was ever put into this except by me.
+
+Enjoy the update and please, dont create issues for things you can use your local search provider to find and figure out, including why this project will NOT work for you.
+
+-wr3cckl3ss
+
+## Act 4: Sorry 4 The Wait #2 : Summer 2024.
 
 *UNDER CONSTRUCTION*
-</div>
-
   
 ```
 ALL previous commands from the past system shells still work.
@@ -210,34 +205,17 @@ Oakieville (https://www.github.com/oakieville/)
 Zachary Wander (https://www.github.com/zacharee/) 
 BLuFeNiX (https://github.com/BLuFeNiX/)
 SJ Park (https://github.com/seojun0924/)
-The Elite
-South Harmon Institute of Technology
-Samsung Electronics
-Donald J Trump...jk jk lmao
+The Elite x Hell's Gate
 ```
 
 ```
-Project includes three unmodified system APKs from
+Project includes THREE zip folders of a collection of APKs from
 factory combination firmware:
 
-OperationSamsungsLullaby-V1.zip
-OperationSamsungsLullaby-v2.zip
-OperationSamsungsLullaby-v3.zip
-OperationSamsungsLullaby-v4.zip
-Collection of unmodified combo apps pulled from Flip3 combo firmware.
+#system3-pt_1.zip
+#system3-pt_2.zip
+#system3-pt_3.zip
 
-NonGalaxy_Combo-v1.zip
-NonGalaxy_Combo-v2.zip
-NonGalaxy_Combo-v3.zip
-NonGalaxy_Combo-v4.zip
-Collection of unmodified combo apps pulled from A71 combo firmware.
-
-com.samsung.android.FactoryTestLauncher_v.2.3.31.apk
-Used for Galaxy Devices (S21, S22, S23, Flip5, Fold4, Tab)
-
-com.samsung.android.FactoryTestLauncher_v.2.2.23.apk
-Used for low to mid budget devices and non-Galaxy devices.
-
-com.samsung.android.GEDFactoryTestLauncher.apk
-Used on Watches. (Watch4, Watch5)
+New LATEST , FTL signed by Samsung and PPI Vulnerable;
+FTL_2.4.03.apk
 ```
