@@ -168,11 +168,15 @@ As many are aware, the project no longer has the original 'OperationSamsungsLull
 have wanted or needed, then look around, they cant he too hard to find. Use your brainpower to find your answers. No one is going to do it for you.
 
 <div align="center">
-I do however, have, something to introduce today. And those are what I call the "#system3 Power Pack".
+  
+I do have, something, to introduce today. And those are what I call the "#system3 Power Pack".
+
 
 <img src="system3/powerpack1.jpg" width="35%" />
 <img src="system3/powerpack2.jpg" width="35%" />
 <img src="system3/powerpack3.jpg" width="35%" />
+
+
 
 *THESE APPS ARE FOR THOSE DEVICES LIKE THE S23 ULTRA, S22 ULTRA, FOLD 4, FOLD5...etc*
 
