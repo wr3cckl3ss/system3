@@ -40,14 +40,17 @@ Fast forward to APRIL/MAY 2023, when Samsung decided to not fix their own issues
 Google went ahead and made the appropriate [framework](https://android.googlesource.com/platform/frameworks/base/+/33940a9749666eec991904094ccf56ae4ca4ae10) changes to SHUT everything down as far as downgrades even if the vendor, like Samsung, had hidden overrides, thus ONLY ALLOWING debuggable apps to downgrade past factory images with or without the use of the -d or -i flags.
 
 Many will wonder, what does any of this have to do with system3, well its plain and simple. The argument used for the One UI 5.1 patch,
+
 ```
 -i com.sec.android.preloadinstaller
 ```
+
 Belongs to a little file on about 90 to 95 percent of Samsung devices called "ASKSTS.xml" easily located by executing, on your device command line,
 
 ```
 cat /etc/ASKSTS.xml
 ```
+
 Opening up the XML, you will be greeted with the following words, "TRUSTEDSTORE"
 
 <div align="center">
@@ -61,12 +64,14 @@ Opening up the XML, you will be greeted with the following words, "TRUSTEDSTORE"
 system3 is the "ShellActivity" of FactoryTestLauncher. FTL is what Samsung uses as its main launcher on combination firmware, even including on today's combo firmware.
 FactoryTestLauncher holds a system uid of 1000. Just like many system applications. 
 Typically when installing, applications like this or any past system applications thru the command line, you're met with the error of:
+
 ```
 [-3001: INSTALL_FAILED_REJECTED_BY_BUILDTYPE]
 ```
 
-TO BYPASS THIS
-USE THE FOLLOWING COMMAND
+
+TO BYPASS THE -3001 ERROR....USE THE FOLLOWING COMMAND:
+
 ```
 adb install -i PrePackageInstaller /data/local/tmp/FTL.apk or the name of ANY system package.
 pm install -i PrePackageInstaller /data/local/tmp/FTL.apk or the name of ANY system package.
@@ -89,16 +94,8 @@ As I previously stated, theres about 3, maybe more platform signatures that Sams
 S22 ULTRA-S23 ULTRA-FOLD 4/5-TAB S7/S8
 </div>
 
-<div align="center">
-<img src="system3/Sig-NonGalaxy.jpg" width="55%" />
-  
-LOW TO MID LEVEL DEVICES-NON GALAXY DEVICES
-</div>
-
 ## Warning
 If you don't know what signature your device holds, STOP RIGHT HERE and LEAVE. This is not a exploratory group or resource for ANY user to use. If you're here, it's because you have an idea or know something at least about SMT, system shells, platform signatures or the SAMSUNG LEAK, etc. If you have no clue, please save yourself the headache. 
-
-*STAY OUT OF THE ISSUES TAB, IF YOU ARE HAVING PROBLEMS OR IF SOMETHING IS NOT WORKING. TAKE IT UP WITH SAMSUNG, NOT ME!* Thanks -wr3cckl3ss
 
 
 ## Conclusion #1
@@ -161,11 +158,11 @@ Let me be the first to say, that l,
 
 And to those, that did take advantage of this. Nothing goes unpunished without consequences. And as of today, many of you know what that consequence is. (RELOCK!?) HAHA!
 It's people like those in that community that ultimately ruin and hinder FUTURE exploits or privilege escalation methods from being released. 
-And that goes to show, why their hasnt been much movement here on the repo. But there will be some today and more coming soon.
+And that goes to show, why their hasnt been much movement here on the repo.
 
 ## FTL Update & #system3_powerpack.zips (2.9.24)
 As many are aware, the project no longer has the original 'OperationSamsungsLullaby' zips or any of the Non-Galaxy zips. I do not plan on reintroducing those zips back again. If there was something you may 
-have wanted or needed, then look around, they cant he too hard to find. Use your brainpower to find your answers. No one is going to do it for you.
+have wanted or needed, then look around, they cant be too hard to find. Use your brainpower to find your answers. No one is going to do it for you.
 
 <div align="center">
   
@@ -183,18 +180,20 @@ I do have, something, to introduce today. And those are what I call the "#system
 *THERE WILL NO LONGER BE ANY UPDATES FOR NON-GALAXY DEVICES*
 
 The power pack will NOT WORK on NEW SECURITY nor will it WORK on Non-Galaxy devices that carry a different signature. However, there are soms tricks, 
-that can LEAD YOU all the way up to the One UI 6 Jan. Security patch. At this time i will not disclose what those tricks are and will share including a summary of everything here at a more later date. As I previously stated many times. Make SURE all the apps from the zip folders are installed. REMOVE anything you don't want. but I ultimately did my best to 
+that can LEAD YOU all the way up to the One UI 6 Jan. Security patch. At this time i will not disclose what those tricks are and will a summary of everything here at a more later date. As I previously stated many times. Make SURE all the apps from the zip folders are installed. REMOVE anything you don't want. but I ultimately did my best to 
 inclue any apps in the zips, where i feel, like a possible privilege escalation could be found or where i believe the door was left wide open. It's solely up to you to figure out, HOW?
 
 The combo apps SHOULD and WILL install on vulnerable firmware (July 2023 or older) using the PrePackageInstaller command, I DISCOVERED! Dont believe the hypes, liars, thieves, low-life, scammers who claim something is theres, when NOT a single bit of R&D was ever put into this except by me.
 
 Enjoy the update and please, dont create issues for things you can use your local search provider to find and figure out, including why this project will NOT work for you.
 
--wr3cckl3ss
 
 ## Act 4: Sorry 4 The Wait #2 : Summer 2024.
 
 *UNDER CONSTRUCTION*
+
+
+  -wr3cckl3ss
   
 ```
 ALL previous commands from the past system shells still work.
